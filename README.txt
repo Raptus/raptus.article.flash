@@ -5,15 +5,19 @@ Provides support for flash movies
 
 The following features for raptus.article are provided by this package:
 
+Content
+-------
     * Flash - add your flash files in an article.
-    * Components:
-        * Flash (displays flash files contained in the article over the whole width)
-        * Flash left (displays flash files contained in the article on the left side)
-        * Flash right  (displays flash files contained in the article on the right side) 
-        * Flash teaser (displays flash files contained in the article over the whole width and displayed above the columns)
 
-Dependencies:
+Components
+----------
+    * Flash (displays flash files contained in the article over the whole width)
+    * Flash left (displays flash files contained in the article on the left side)
+    * Flash right  (displays flash files contained in the article on the right side) 
+    * Flash teaser (displays flash files contained in the article over the whole width and displayed above the columns)
 
+Dependencies
+------------
     * hexagonit.swfheader
     * Products.ContentTypeValidator
     * raptus.article.core
@@ -67,7 +71,5 @@ in the article in which this component is active.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 

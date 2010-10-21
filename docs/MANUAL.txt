@@ -10,7 +10,9 @@ Code overview
 
 Adapters
 --------
+
 file: adapters.py
+`````````````````
 
 - Flashs (Provider for flash movies contained in an article)
     - interface: IFlashs
@@ -26,19 +28,22 @@ file: adapters.py
 
 Components
 ----------
-plone.abovecontentbody:
 
+plone.abovecontentbody
+``````````````````````
 - raptus.article.flash.right
 - raptus.article.flash.left
 - raptus.article.flash.full
 
 plone.portaltop
-
+```````````````
 - raptus.article.flash.teaser
 
 Interfaces
 ----------
+
 file: interfaces.py
+```````````````````
 
 - IFlashs (Provider for flash movies contained in an article)
     - getFlashs - method (Returns a list of flash movies (catalog brains))
